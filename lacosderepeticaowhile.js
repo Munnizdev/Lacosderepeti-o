@@ -9,6 +9,9 @@ let maiores50 = 0;
 function perguntar() {
   readline.question('Digite uma idade: ', idade => {
     idade = parseInt(idade);
+
+// simula um laço de repetição, funcionando como um while
+
     
     if (idade < 0) {
       console.log(`\nTotal de pessoas menores de 21 anos: ${menores21}`);
